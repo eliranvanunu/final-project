@@ -1,11 +1,110 @@
+html, body {
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* opacity: 0.5; */
+}
+
 .App {
   text-align: center;
+  height: 100%;
+ 
 }
+.row{
+  font-size: 20px;
+  color: rgb(9, 130, 243);
+  font-weight: 1000;
+  margin-bottom: 20px;
+}
+#root{
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("imeges/54057_1.jpg");
+}
+.contain{
+  display: grid;
+  align-content: space-around;
+  height: 80%;
+}
+/*nav bar*/
+.container{
+  direction: rtl;
+  text-align: right;
+
+}
+.container-fluid{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.navbar-brand{
+  width: 100%;
+}
+/*הרשמה*/
+.mb-3{
+  width: 95%;
+  display: flex;
+
+
+}
+.link{
+  font-size: 30px;
+  color: rgb(9, 243, 40);
+  font-weight: 1000;
+}
+/*form*/
+form {
+  direction: rtl;
+  display: grid;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+.form-label{
+  width: 60%;
+  font-size: 20px;
+ font-weight: 1000;
+ color: rgb(29, 245, 65);
+}
+p u{
+color: antiquewhite;
+}
+/*btn Add*/
+ion-icon {
+  --ionicon-stroke-width: 70px;
+  color: green;
+  font-size: xx-large;
+  margin-right: 60px;
+}
+
+.home{
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+.iconHome{
+  display: flex;
+  justify-content: right;
+}
+.md{
+ margin-left: 10px;
+}
+/* p{
+  width: 60%;
+  display: flex;
+  justify-content: right;
+  text-decoration: underline;
+} */
+
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
